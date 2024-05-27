@@ -1,16 +1,51 @@
-# blocexample
+# User App Demo
 
-A new Flutter project.
+A demo user application built with Flutter and Bloc for state management.
+
+## Features
+
+- User authentication
+- Profile management
+- List of users
+- Detail view for users
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter](https://flutter.dev/docs/get-started/install) (version 3.0 or later)
+- [Dart](https://dart.dev/get-dart)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/user-app-demo.git
+    cd user-app-demo
+    ```
+
+2. Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+
+3. Run the app:
+    ```bash
+    flutter run
+    ```
+
+## Project Structure
+
+lib/
+├── blocs/ # Bloc files for state management
+├── models/ # Data models
+├── repositories/ # Data repositories
+├── screens/ # UI screens
+├── widgets/ # Reusable widgets
+└── main.dart # Entry point of the app
+
+
+
+## Contact
+
+For any questions or suggestions, feel free to reach out at anandyadav21219@gmail.com.
