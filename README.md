@@ -34,17 +34,6 @@ A demo user application built with Flutter and Bloc for state management.
     flutter run
     ```
 
-## Project Structure
-
-lib/
-├── blocs/ # Bloc files for state management
-├── models/ # Data models
-├── repositories/ # Data repositories
-├── screens/ # UI screens
-├── widgets/ # Reusable widgets
-└── main.dart # Entry point of the app
-
-
 
 ## Contact
 
